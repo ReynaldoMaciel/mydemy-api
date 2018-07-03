@@ -4,4 +4,4 @@ This is a REST API Project created watching [Build YOUR OWN Udemy with NodeJS](h
 
 It's a project that i created to get familiarity with the ecosystem of NodeJS and Loopback Framework
 
-🐎🐎🐎🐎🐎🐎🐎
+🐴🐴🐴🐴
