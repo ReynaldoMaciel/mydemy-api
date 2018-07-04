@@ -14,25 +14,61 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mydemy"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mydemy",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mydemy",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mydemy",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mydemy",
     "public": false
+  },
+  "Section": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Lesson": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Comment": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Affiliate": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Item": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Member": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "News": {
+    "dataSource": "mydemy",
+    "public": true
+  },
+  "Notification": {
+    "dataSource": "mydemy",
+    "public": true
   }
 }

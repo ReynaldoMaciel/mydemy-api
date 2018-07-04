@@ -24,6 +24,11 @@ boot(app, __dirname, function(err) {
   if (err) throw err;
 
   // start the server if `$ node server.js`
-  if (require.main === module)
+  if (require.main === module) {
+    app.datasources['mydemy']
+    .autoupdate(function(err) {
+      console.log(err);
+    });
     app.start();
+  }
 });
